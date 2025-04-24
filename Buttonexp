@@ -1,0 +1,19 @@
+import java.awt.*;
+ public class Buttonexp{
+    public Buttonexp(){
+        Frame frame=new Frame();
+        Button btn=new Button("Click Me");
+        btn.setBounds(80,80,100,50);
+        frame.add(btn);
+        frame.setSize(300,250);
+        frame.setTitle("Button Example");
+        frame.setLayout(null);
+        frame.setVisible(true);
+        
+    }
+
+    public static void main(String[]args){
+        Buttonexp bt=new Buttonexp();
+        
+    }
+}
